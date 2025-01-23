@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{  /*  função para resetar as dimensões da pagina*/
+    margin: 0;
+    padding: 0;
+}
+
+
+body{  /* personalização do corpo da pagina */
+    box-sizing: border-box;
+    background-color: black;
+    color: #ffff;
+}
+.apresentacao{  /* personalização do main */
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cabeçalho{ /* personalização do header*/
+    padding: 2% 0 0 10%;
+}
+ .menu{  /* personalização da tag "nav" */
+    padding: 5%;
+    display: flex;
+    gap: 5%;
+    justify-content: right;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22d4fd;
+ }
+
+.biografia{ /*personalização da âncora biografia*/
+    color: #22d4fd;
+    text-decoration: none;
+    
+}
+
+.biografia:hover{ /* personalização da segunda cor da âncora biografia*/
+    color: #61e2ff;
+}
+.curriculo{ /*personalização da âncora biografia*/
+    color: #22d4fd;
+    text-decoration: none;
+    
+}
+
+.curriculo:hover{ /* personalização da segunda cor da âncora biografia*/
+    color: #61e2ff;
+}
+
+
+
+.sombreado{ /* personalização do destaque ou sombreado que fica no caracter*/
+    color: #22d4fd;
+}
+
+.apre_conteudo{   /* personalização da tag section  */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width:615px;
+}
+
+.Titulo{      /* personalização do "h1" do section*/
+    font-size: 36px;
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.paragrafo{  /* personalização do "p" do section*/
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.bloco_1{ /* personalização da tag "div" do section*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+
+
+.amostra{ /* personalização do h2 do section*/
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+
+.links{ /*personalização das âncoras */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #22d4fd;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+    width: 378px ;
+    height: 72px ;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    
+}
+
+.links:hover{    /* personalização da segunda cor das âncoras*/
+    background-color: rgb(24, 24, 26);
+}
+
+.logo{ /* personalização das logo github e instagram*/
+    margin:0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+.img_joana_santos{   /* personalização da imagem joana santos*/
+    margin: 100px;
+    width: 488px;
+    height: 550px;
+
+}
+
+.rodape{    /* personalização da tag "footer"*/
+    text-align: center;
+    padding: 23.64px;
+    color: black;
+    background-color: #22d4fd;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 400;
+}
