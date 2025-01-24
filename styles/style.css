@@ -1,6 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor-primaria:#000;
+    --cor-secudaria:#ffff;
+    --cor-terciaria:#56006e;
+    --cor-quartenaria:#b403b4;
+    --cor-quintenaria: #2c2b2b;
+    --fonte-primaria: "krona one", sans-serif;
+    --fonte-secundaria:"Montserrat", serif;
+    
+}
 
 *{  /*  função para resetar as dimensões da pagina*/
     margin: 0;
@@ -10,8 +20,8 @@
 
 body{  /* personalização do corpo da pagina */
     box-sizing: border-box;
-    background-color: black;
-    color: #ffff;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secudaria);
 }
 .apresentacao{  /* personalização do main */
     padding: 5% 15%;
@@ -29,35 +39,44 @@ body{  /* personalização do corpo da pagina */
     display: flex;
     gap: 5%;
     justify-content: right;
-    font-family: "Montserrat", serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 600;
     font-size: 24px;
-    color: #22d4fd;
+    color: var(--cor-terciaria);
  }
 
+
+ .home{ /*personalização da âncora home*/
+    color: var(--cor-terciaria);
+    text-decoration: none;
+ }
+
+ .home:hover{ /*personalização da segunda cor da âncora home*/
+    color:var(--cor-quartenaria);
+ }
 .biografia{ /*personalização da âncora biografia*/
-    color: #22d4fd;
+    color:var(--cor-terciaria);
     text-decoration: none;
     
 }
 
 .biografia:hover{ /* personalização da segunda cor da âncora biografia*/
-    color: #61e2ff;
+    color: var(--cor-quartenaria);
 }
 .curriculo{ /*personalização da âncora biografia*/
-    color: #22d4fd;
+    color:var(--cor-terciaria);
     text-decoration: none;
     
 }
 
 .curriculo:hover{ /* personalização da segunda cor da âncora biografia*/
-    color: #61e2ff;
+    color: var(--cor-quartenaria);
 }
 
 
 
 .sombreado{ /* personalização do destaque ou sombreado que fica no caracter*/
-    color: #22d4fd;
+    color:var(--cor-terciaria);
 }
 
 .apre_conteudo{   /* personalização da tag section  */
@@ -69,7 +88,7 @@ body{  /* personalização do corpo da pagina */
 
 .Titulo{      /* personalização do "h1" do section*/
     font-size: 36px;
-    font-family: "Krona One", serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
 }
@@ -95,7 +114,7 @@ body{  /* personalização do corpo da pagina */
 
 
 .amostra{ /* personalização do h2 do section*/
-    font-family: "Montserrat", serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -106,7 +125,7 @@ body{  /* personalização do corpo da pagina */
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    border: 2px solid #22d4fd;
+    border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     text-align: center;
     align-items: center;
@@ -114,13 +133,13 @@ body{  /* personalização do corpo da pagina */
     width: 378px ;
     height: 72px ;
     font-size: 20px;
-    font-family: "Montserrat", serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 600;
     
 }
 
 .links:hover{    /* personalização da segunda cor das âncoras*/
-    background-color: rgb(24, 24, 26);
+    background-color: var(--cor-quintenaria);
 }
 
 .logo{ /* personalização das logo github e instagram*/
@@ -139,9 +158,9 @@ body{  /* personalização do corpo da pagina */
 .rodape{    /* personalização da tag "footer"*/
     text-align: center;
     padding: 23.64px;
-    color: black;
-    background-color: #22d4fd;
-    font-family: "Montserrat", serif;
+    color: var(--cor-primaria);
+    background-color:var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
