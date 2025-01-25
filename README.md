@@ -28,7 +28,7 @@ Design Responsivo:
 * Adaptação automática para dispositivos menores (menos de 1200px), reorganizando elementos e centralizando o menu de navegação.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-- Tecnologias Utilizadas
+ Tecnologias Utilizadas:
 
 * HTML5: Estruturação semântica e organização do conteúdo.
 
