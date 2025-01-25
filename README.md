@@ -23,6 +23,7 @@ Imagem de Destaque:
 Rodapé Personalizado:
 
 * Créditos ao projeto e combinação de cores que fecham o design.
+
 Design Responsivo:
 
 * Adaptação automática para dispositivos menores (menos de 1200px), reorganizando elementos e centralizando o menu de navegação.
