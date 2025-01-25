@@ -1,22 +1,40 @@
 # CP-tela-1---alura
-refazendo uma tela de portfolio 
+Este projeto é um portfólio responsivo e estilizado, desenvolvido em HTML e CSS, com o objetivo de apresentar o trabalho da desenvolvedora Joana Santos. O design moderno, combinado com uma boa organização de estilos, destaca as habilidades em React, HTML e CSS, além de oferecer links para redes sociais e um rodapé personalizado.
 
-- dia 22/01/2025 -> primeira versão do portfolio.
+![imagem da tela principal](assets/Captura de tela 2025-01-25 171608.png)
 
-        foi implementado o escopo da primeira pagina do portfolio,como html,css, utilizando comando basicos na estrutura e personalização.
+----------------------------------------------------------------------------------------------------------------------------------------
+Funcionalidades
 
-- dia 23/01/2025 -> segunda versão do portfolio.
+Navegação por Menu:
 
-    Implementação de novas funções e novas telas na pagina, como about.html e curriculum.html. 
+Links para as páginas: "Home", "Sobre Mim" e "Currículo".
+Estilização com realce ao passar o cursor sobre os links (efeito hover).
+Seção de Apresentação:
 
-    Foi utilizando novas tecnicas de persoanalização como o flexbox e uso de bibliotecas para fontes de caracteres e a funcionalidade de ao clicar nas opções "Home", "Sobre mim" ou " Curriculo", serem direcionados a pagina referente.
+Texto introdutório com título chamativo e estilização diferenciada.
+Parágrafo apresentando habilidades e uma chamada para conexão.
+Links para Redes Sociais:
 
-- dia 24/01/2025 -> terceira versão do portfolio.
+* Botões estilizados com ícones (Instagram e GitHub), responsivos a interações (hover).
+Imagem de Destaque:
 
-    Implementação de variavéis, para facilitar a customização do css.
+* Foto da desenvolvedora para personalização e identificação visual.
+Rodapé Personalizado:
 
-    E Adicionando Comentarios no algoritmo css para a facilitar a compreensão de onde estar sendo customizado.
+* Créditos ao projeto e combinação de cores que fecham o design.
+Design Responsivo:
 
-- dia 25/01/2025 -> versão 3.1 do portfolio.
+* Adaptação automática para dispositivos menores (menos de 1200px), reorganizando elementos e centralizando o menu de navegação.
 
-    Atualização da documentação e adição de um comentario no arquivo style.css
+----------------------------------------------------------------------------------------------------------------------------------------
+- Tecnologias Utilizadas
+
+* HTML5: Estruturação semântica e organização do conteúdo.
+
+* CSS3: Estilização avançada, com:
+Variáveis CSS para reaproveitamento de cores e fontes.
+Flexbox para disposição e alinhamento.
+Media Queries para responsividade.
+
+* Google Fonts: Integração das fontes "Krona One" e "Montserrat" para uma tipografia moderna.
