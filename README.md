@@ -1,7 +1,7 @@
 # CP-tela-1---alura
 Este projeto é um portfólio responsivo e estilizado, desenvolvido em HTML e CSS, com o objetivo de apresentar o trabalho da desenvolvedora Joana Santos. O design moderno, combinado com uma boa organização de estilos, destaca as habilidades em React, HTML e CSS, além de oferecer links para redes sociais e um rodapé personalizado.
 
-![imagem da tela principal](assets/Captura de tela 2025-01-25 171608.png)
+![imagem da tela principal](assets/tela_principal.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 Funcionalidades
