@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root{ /* definição das variavéis*/
     --cor-primaria:#000;
     --cor-secudaria:#ffff;
     --cor-terciaria:#56006e;
